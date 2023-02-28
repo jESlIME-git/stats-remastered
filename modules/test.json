@@ -1,0 +1,30 @@
+{
+  "MENU_TITLE": "Выберите действие:",
+  "MENU": [
+    {
+      "TITLE": "Запустить",
+      "ACTIONS": [
+        {
+          "TYPE": "TEXT",
+          "TEXT": "Текст"
+        },
+        {
+          "TYPE": "SLEEP",
+          "TIME": 2
+        },
+        {
+          "TYPE": "CHDIR",
+          "PATH": ".."
+        },
+        {
+          "TYPE": "CMD",
+          "CMD": "ls"
+        },
+        {
+          "TYPE": "SLEEP",
+          "TIME": 2
+        }
+      ]
+    }
+  ]
+}
